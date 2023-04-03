@@ -21,11 +21,11 @@ function Header() {
           </div>  
 
           <div className="header_nav">
-            <Link to="/Login" style={{textDecoration: "none"}}>
+            <div to="/Login">
                 <div className="nav_item">
                 <span className="nav_itemLineTwo">Sign In</span>
                 </div>
-            </Link>
+            </div>
           </div>
 
           <div className="nav_item">
